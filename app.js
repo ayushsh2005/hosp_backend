@@ -18,7 +18,7 @@ app.use(cors({
       , process.env.DASHBOARD_URL
       ,"https://hospital-management-app-28f4.vercel.app"
       ,"https://hosp-frontend-lemon.vercel.app",
-    "https://hosp-dashboard-six.vercel.app/"],
+    "https://hosp-dashboard-six.vercel.app"],
     methods: ["GET","PUT", "POST", "DELETE"],
     credentials: true
 })
